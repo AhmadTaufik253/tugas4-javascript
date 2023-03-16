@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas 4 Javascript</title>
+  </head>
+  <body>
+    <form id="kalkulator" action="">
+      <table>
+        <tr>
+          <th colspan="2">Kalkulator</th>
+        </tr>
+        <tr>
+          <td><label for="">Angka 1</label></td>
+          <td><input type="text" name="angka" id="" placeholder="masukan angka pertama" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Angka 2</label></td>
+          <td><input type="text" name="angka2" id="" placeholder="masukan angka kedua" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Hasil</label></td>
+          <td><input type="text" name="hasil" disabled id="hasil" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="btn">
+            <button type="button" name="btn_tambah" onclick="tambah()">+</button>
+            <button type="button" name="btn_kurang" onclick="kurang()">-</button>
+            <button type="button" name="btn_kali" onclick="kali()">*</button>
+            <button type="button" name="btn_bagi" onclick="bagi()">/</button>
+            <button type="button" name="btn_hapus" onclick="hapus()">hapus</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <!-- script -->
+    <script src="tugas4js.js"></script>
+  </body>
+</html>
